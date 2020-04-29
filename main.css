@@ -3,19 +3,14 @@
     height: 200px;
     border: 5px solid #ffc6c7;
     background-color: #faeee7;
-    border-radius: 180px;
+    border-radius: 120px;
     text-align: center;
     font-family: 'Baloo Tamma 2';
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);;
 }
 span {
     font-size: 50px;
     color: #ff8ba7;
-}
-
-.start {
-    display: block;
-    margin: auto;
 }
 
 .time {
@@ -23,6 +18,54 @@ span {
     height: 70px;
 }
 
+button {
+    width: 50px;
+    height: 20px;
+    font-family: 'Baloo Tamma 2';
+    font-size: 13px;
+    color: #ff8ba6;
+    background-color: #fffffe;
+    margin: 2px 15px;
+    border-style: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.start {
+    display: block;
+    margin: auto;
+    height: 25px;
+    border-radius: 18px;
+}
+
+.start:hover {
+    box-shadow: 0px 2px 4px #d9376e;
+}
+
+.start:active {
+    box-shadow: 0px -4px 4px -4px #d9376e;
+
+}
+
+.stop:hover {
+    box-shadow: 0px 2px 4px #d9376e;
+}
+
+.stop:active {
+    box-shadow: 0px -4px 4px -4px #d9376e;
+
+}
+
 .restart {
+    padding: 0;
     text-align: center;
+}
+
+.restart:hover {
+    box-shadow: 0px 2px 4px #d9376e;
+}
+
+.restart:active {
+    box-shadow: 0px -4px 4px -4px #d9376e;
+
 }
